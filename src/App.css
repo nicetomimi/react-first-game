@@ -1,0 +1,15 @@
+.box{
+    border: 3px solid black;
+    width: 500px;
+    text-align: center;
+}
+
+.item-img{
+    width: 400px;
+}
+
+.main_area{
+    display:flex;
+    justify-content: center;
+    gap: 1em;
+}
