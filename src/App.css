@@ -1,15 +1,42 @@
-.box{
-    border: 3px solid black;
-    width: 500px;
-    text-align: center;
+.box {
+  border: 10px solid black;
+  width: 500px;
+  height: 700px;
+  text-align: center;
 }
 
-.item-img{
-    width: 400px;
+.win {
+  border: 10px solid rgb(233, 0, 0);
+  color: rgb(233, 0, 0);
 }
 
-.main_area{
-    display:flex;
-    justify-content: center;
-    gap: 1em;
+.lose {
+  border: 10px solid rgb(212, 212, 212);
+}
+
+.tie {
+    border: 10px solid rgb(161, 161, 161);
+}
+
+.item-img {
+  width: 80%;
+  height: 70%;
+}
+
+.main_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-top: 3em;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 1.5em;
+}
+
+h1{
+    font-size: 3em;
 }
